@@ -2,20 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-*,*::before,*::after{
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
 }
 
-img, picture, svg, video{
+img,
+picture,
+svg,
+video {
   display: block;
   max-width: 100%;
 }
